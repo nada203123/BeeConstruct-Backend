@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Vérification du Compte</title>
+</head>
+<body>
+<h2>Bienvenue chez BEEConstruct</h2>
+<p>Bonjour,</p>
+<p>Une personne a créé un compte BEEConstruct pour vous. Voici vos identifiants de connexion :</p>
+<p><strong>Email :</strong> <span th:text="${email}"></span></p>
+<p><strong>Mot de passe :</strong> <span th:text="${password}"></span></p>
+<p>Veuillez modifier votre mot de passe après votre première connexion pour des raisons de sécurité.</p>
+<p>Cordialement,</p>
+<p>L'équipe BEEConstruct</p>
+</body>
+</html>

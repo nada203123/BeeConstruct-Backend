@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Identifiants du Compte Mis à Jour</title>
+</head>
+<body>
+<h2>Vos Identifiants de Compte BEEConstruct Ont Été Mis à Jour</h2>
+<p>Bonjour <span th:text="${firstName}"></span>,</p>
+<p>Les identifiants de votre compte BEEConstruct ont été mis à jour. Voici vos nouvelles informations de connexion :</p>
+<ul>
+    <li><strong>Prénom :</strong> <span th:text="${firstName}"></span></li>
+    <li><strong>Nom :</strong> <span th:text="${lastName}"></span></li>
+    <li><strong>Email :</strong> <span th:text="${email}"></span></li>
+    <li><strong>Mot de passe :</strong> <span th:text="${password}"></span></li>
+    <li><strong>Numéro de téléphone :</strong> <span th:text="${phoneNumber}"></span></li>
+    <li><strong>Rôle :</strong> <span th:text="${role}"></span></li>
+</ul>
+<p>Veuillez modifier votre mot de passe après votre première connexion pour des raisons de sécurité.</p>
+<p>Si vous n'avez pas demandé cette modification, veuillez contacter immédiatement notre équipe de support.</p>
+<p>Cordialement,</p>
+<p>L'équipe BEEConstruct</p>
+</body>
+</html>
