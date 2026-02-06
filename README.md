@@ -53,6 +53,8 @@ Les microservices exposent des API REST pour :
 - Gestion des **offres** (création d’offres, mise à jour, consultation).  
 - Gestion des **employés** (affectation, informations, etc.).  
 - Gestion des **chantiers** (création, planification, suivi d’avancement, liens avec clients, offres et employés), incluant la gestion des **marchandises**, le **pointage** des employés et le calcul des **salaires**.
+- Notifications en temps réel grâce à l’utilisation de **WebSocket**.
+- Documentation et test des API via **Swagger UI**.
 
 L’API Gateway agrège ces services et fournit un point d’accès unifié pour le frontend Angular.
 
